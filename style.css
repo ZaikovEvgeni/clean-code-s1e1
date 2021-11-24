@@ -100,25 +100,24 @@ label[for='new-task'] {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.tasks__item> * {
+.tasks__item > * {
     vertical-align: middle;
 }
 
-.tasks__item> input[type="checkbox"] {
+.tasks__item > input[type="checkbox"] {
     margin: 0 10px;
 }
-.tasks__item> label {
+.tasks__item > label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.tasks__item>    input[type="text"] {
+.tasks__item > input[type="text"] {
     width: 226px;
 }
 .tasks__item-delete-img {
